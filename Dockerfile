@@ -1,4 +1,4 @@
-# Docker image with PYTHON3 and DEPENDENCIES for pyodbc with MS ODBC 17 DRIVER, Debian GNU/Linux 10 (buster)
+# Docker image with PYTHON3 and DEPENDENCES for pyodbc with MS ODBC 17 DRIVER, Debian GNU/Linux 10 (buster)
 # BY TADEO RUBIO
 # Using the official Python image, Tag 3.8.3-buster
 FROM python:3.8.3-buster
