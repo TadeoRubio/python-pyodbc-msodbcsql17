@@ -15,7 +15,7 @@ Uses official image [Python 3.8.3-buster](https://hub.docker.com/_/python/)
 
 ## Don't forget
 
-This image haven't pyodbc yet, so please remember including on your deployment.
+This image hasn't pyodbc yet, so please remember include it on your deployment.
 
 ### License
 
