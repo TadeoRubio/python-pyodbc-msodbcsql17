@@ -1,14 +1,14 @@
 # Docker image with PYTHON3 and DEPENDENCES for pyodbc with MS ODBC 17 DRIVER, Debian GNU/Linux 10 (buster)
 # BY TADEO RUBIO
-# Using the official Python image, Tag 3.8.3-buster
-FROM python:3.8.3-buster
+# Using the official Python image, Tag 3.9-buster
+FROM python:3.9-buster
 
 # UPDATE APT-GET
 RUN apt-get update
 
 # PYODBC DEPENDENCES
 RUN apt-get install -y tdsodbc unixodbc-dev
-RUN apt install unixodbc-bin -y
+RUN apt-get install unixodbc-bin -y
 RUN apt-get clean -y
 ADD odbcinst.ini /etc/odbcinst.ini
 
