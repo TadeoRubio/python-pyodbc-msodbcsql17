@@ -10,7 +10,6 @@ RUN apt-get update
 RUN apt-get install -y tdsodbc unixodbc-dev
 RUN apt install unixodbc-bin -y
 RUN apt-get clean -y
-ADD odbcinst.ini /etc/odbcinst.ini
 
 # UPGRADE pip3
 RUN pip3 install --upgrade pip
